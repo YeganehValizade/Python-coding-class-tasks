@@ -1,11 +1,11 @@
-symbol = input("choose a symbol: (+,-,*,/):")
-a =int(input("enter the first number: "))
+op = input("Please choose a symbol: (+,-,*,/): ")
+a =int (input("enter the first number: "))
 b =int (input("enter the second number: "))
-if symbol == ("+"):
+if op == ("+"):
     print(a+b)
-if symbol ==("-"):
+if op == ("-"):
     print(a-b)
-if symbol==("*"):
+if op == ("*"):
     print(a*b)
-if symbol==("/"):
+if op == ("/"):
     print(a/b)
