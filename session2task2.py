@@ -8,4 +8,7 @@ if op == ("-"):
 if op == ("*"):
     print(a*b)
 if op == ("/"):
-    print(a/b)
+    if b== 0:
+        print("Error")
+    else:
+        print(a/b)
